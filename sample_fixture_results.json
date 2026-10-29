@@ -1,0 +1,29 @@
+{
+  "type": "hand-written sample fixture checks; no model calls",
+  "checks": [
+    {
+      "scenario": "wrong-limit",
+      "expected": "contradicted",
+      "actual": "contradicted",
+      "passed": true
+    },
+    {
+      "scenario": "within-range",
+      "expected": "supported",
+      "actual": "supported",
+      "passed": true
+    },
+    {
+      "scenario": "wrong-unit",
+      "expected": "contradicted",
+      "actual": "contradicted",
+      "passed": true
+    },
+    {
+      "scenario": "missing-evidence",
+      "expected": "insufficient_evidence",
+      "actual": "insufficient_evidence",
+      "passed": true
+    }
+  ]
+}
